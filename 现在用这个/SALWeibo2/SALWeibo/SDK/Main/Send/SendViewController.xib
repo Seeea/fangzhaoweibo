@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SendViewController">
+            <connections>
+                <outlet property="buttonConstraint" destination="zm8-8m-uWv" id="Lle-4Q-SkH"/>
+                <outlet property="myTextView" destination="PPQ-G6-xrC" id="qta-J7-jBU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PPQ-G6-xrC">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PPQ-G6-xrC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="67v-hb-vu9"/>
+                <constraint firstAttribute="trailing" secondItem="PPQ-G6-xrC" secondAttribute="trailing" id="JKW-j7-MMU"/>
+                <constraint firstItem="PPQ-G6-xrC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="V6K-yB-geU"/>
+                <constraint firstAttribute="bottom" secondItem="PPQ-G6-xrC" secondAttribute="bottom" id="zm8-8m-uWv"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
